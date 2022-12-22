@@ -7,12 +7,7 @@ module.exports = {
   images: {
     domains: [],
   },
-  experimental: {
-    legacyBrowsers: false,
-    browsersListForSwc: true,
-    images: { allowFutureImage: true },
-    concurrentFeatures: true,
-  },
+
   async headers() {
     return [
       {

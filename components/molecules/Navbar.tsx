@@ -36,9 +36,9 @@ export default function Navbar() {
         </a>
         <div className='ml-[-0.60rem]'>
           <Link href='/'>
-            <a className='md:inline-block mr-4 text-xl font-bold tracking-tight text-black dark:text-white p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all'>
+            <p className='md:inline-block mr-4 text-xl font-bold tracking-tight text-black dark:text-white p-1 sm:px-3 sm:py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-all'>
               RizkianAkbar
-            </a>
+            </p>
           </Link>
           <NavItem href='/' text='Home' />
         </div>
