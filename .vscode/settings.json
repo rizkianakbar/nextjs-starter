@@ -1,8 +1,16 @@
 {
-  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.removeUnusedImports": "explicit"
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "headwind.runOnSave": true
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "headwind.runOnSave": true,
+  "editor.quickSuggestions": { "strings": "on" },
+  "tailwindCSS.classFunctions": ["cva", "cx"],
+  "files.associations": { "*.css": "tailwindcss" },
+  "javascript.format.enable": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
 }

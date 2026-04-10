@@ -31,7 +31,7 @@ const useShortcut = (shortcuts: Shortcuts): void => {
 
       // Find a matching shortcut
       for (const combination in shortcuts) {
-        if (Object.prototype.hasOwnProperty.call(shortcuts, combination)) {
+        if (Object.hasOwn(shortcuts, combination)) {
           const shortcutKeys = combination.toLowerCase().split('+').sort();
           const shortcutCombination = shortcutKeys.join('+');
 

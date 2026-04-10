@@ -1,15 +1,14 @@
 'use client';
 
-import Error from 'next/error';
-import { JSX } from 'react';
+import type { JSX } from 'react';
 
 import { Button } from '@/components/ui/button';
 
-export default function GlobalErrorPage({ error }: { error: Error }): JSX.Element {
+export default function GlobalErrorPage({ error }: { error: Error & { digest?: string } }): JSX.Element {
   console.error(error);
 
   return (
-    <html>
+    <html lang="en">
       <body className="flex flex-col gap-4 justify-center items-center h-screen">
         <h2 className="text-3xl font-bold">Oops! Something went wrong</h2>
 
