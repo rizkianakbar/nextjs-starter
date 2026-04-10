@@ -12,5 +12,16 @@
   "files.associations": { "*.css": "tailwindcss" },
   "javascript.format.enable": false,
   "typescript.preferences.importModuleSpecifier": "non-relative",
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" }
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
